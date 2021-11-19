@@ -36,6 +36,11 @@ const App: React.FC<AppProps> = (props: AppProps) => {
         }
     }, []);
 
+    // HACK: just redirect to blackislandaudio until I get this site set up...
+    React.useEffect(() => {
+        window.location.href = "https://blackislandaudio.com";
+    }, []);
+
     return (
         <>
             <Head>
