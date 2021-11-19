@@ -23,6 +23,7 @@ class Header extends React.Component<{}, IState> {
         anchorEl: null,
     }
 
+    // HACK: just redirect to blackislandaudio until I get this site set up...
     componentDidMount() {
         window.location.href = "https://blackislandaudio.com";
     }
